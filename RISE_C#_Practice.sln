@@ -5,7 +5,11 @@ VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RISE_C#_Practice", "RISE_C#_Practice.csproj", "{A3010FD2-C3B0-40B7-840E-C1034CC96470}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTypesAndOperators", "..\DataTypesAndOperators\DataTypesAndOperators.csproj", "{375E0988-F2AE-402B-9040-6941D438DBA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataTypesAndOperators", "..\DataTypesAndOperators\DataTypesAndOperators.csproj", "{375E0988-F2AE-402B-9040-6941D438DBA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VarAndDynamic", "..\VarAndDynamic\VarAndDynamic.csproj", "{E0A3199A-2F94-4F3C-94C0-BDE2AC205C11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "enums", "..\enums\enums.csproj", "{9A065890-DF6C-4D9F-A1F0-9D4A2380DEF5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{375E0988-F2AE-402B-9040-6941D438DBA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{375E0988-F2AE-402B-9040-6941D438DBA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{375E0988-F2AE-402B-9040-6941D438DBA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0A3199A-2F94-4F3C-94C0-BDE2AC205C11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0A3199A-2F94-4F3C-94C0-BDE2AC205C11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0A3199A-2F94-4F3C-94C0-BDE2AC205C11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0A3199A-2F94-4F3C-94C0-BDE2AC205C11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A065890-DF6C-4D9F-A1F0-9D4A2380DEF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A065890-DF6C-4D9F-A1F0-9D4A2380DEF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A065890-DF6C-4D9F-A1F0-9D4A2380DEF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A065890-DF6C-4D9F-A1F0-9D4A2380DEF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
