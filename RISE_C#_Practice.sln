@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RISE_C#_Practice", "RISE_C#_Practice.csproj", "{A3010FD2-C3B0-40B7-840E-C1034CC96470}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataTypesAndOperators", "..\DataTypesAndOperators\DataTypesAndOperators.csproj", "{375E0988-F2AE-402B-9040-6941D438DBA6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VarAndDynamic", "..\VarAndDynamic\VarAndDynamic.csproj", "{E0A3199A-2F94-4F3C-94C0-BDE2AC205C11}"
@@ -21,7 +19,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pointer", "..\Pointer\Point
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "strings", "..\strings\strings.csproj", "{2FB663E2-86DA-4841-8718-ACB5A0B7D25A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "..\Arrays\Arrays.csproj", "{2B9C923D-7E66-4AD8-BA51-9B4B8D0673DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "..\Arrays\Arrays.csproj", "{2B9C923D-7E66-4AD8-BA51-9B4B8D0673DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +27,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A3010FD2-C3B0-40B7-840E-C1034CC96470}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A3010FD2-C3B0-40B7-840E-C1034CC96470}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A3010FD2-C3B0-40B7-840E-C1034CC96470}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A3010FD2-C3B0-40B7-840E-C1034CC96470}.Release|Any CPU.Build.0 = Release|Any CPU
 		{375E0988-F2AE-402B-9040-6941D438DBA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{375E0988-F2AE-402B-9040-6941D438DBA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{375E0988-F2AE-402B-9040-6941D438DBA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
