@@ -9,7 +9,7 @@ namespace Functions_Methods_
             int a = 15;
             int b = 17;
 
-            Console.WriteLine("The value of a before a function call: {0}",a);
+            Console.WriteLine("The value of a before a function call: {0}", a);
 
             //call by value
             Increment(a);
@@ -26,7 +26,12 @@ namespace Functions_Methods_
 
             //the out keyword is used to get the values from function and display it outside it
             Calculate(a, b, out int Sum, out int Product, out int Remainder);
-            Console.WriteLine("sum:{0},Product:{1},Remainder:{2}",Sum,Product,Remainder);
+            Console.WriteLine("sum:{0},Product:{1},Remainder:{2}", Sum, Product, Remainder);
+
+            //variable length of arguments
+            Show("Raman", "Ramesh", 101, 20);
+            Show("Raman", "Ramesh", "Riya", 900 ,102, 23);
+
         }
 
         static void Increment(int a)
@@ -42,12 +47,21 @@ namespace Functions_Methods_
             Console.WriteLine("This is call by reference so original value at b's location is changed with this incremented value:" + a);
         }
 
-        public  static void Calculate(int Num1, int Num2, out int Sum, out int Product, out int Remainder)
+        public static void Calculate(int Num1, int Num2, out int Sum, out int Product, out int Remainder)
         {
             Sum = Num1 + Num2;
             Product = Num1 * Num2;
             Remainder = Num1 % Num2;
         }
 
+        //params keyword can be used to represent a variable length argument,
+        //which allows a function to accept a variable number of parameters.
+        public static void Show(params object[] items)
+        {
+            for (int i = 0; i < items.Length; i++)
+            {
+                Console.WriteLine(items[i]);
+            }
+        }
     }
 }
