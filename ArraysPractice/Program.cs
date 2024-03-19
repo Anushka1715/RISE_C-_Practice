@@ -43,14 +43,6 @@ namespace ArraysPractice
             }
 
             Console.WriteLine("Multidimensional Array:");
-           //for(int i =0;i< array2.GetLength(0); i++)
-            //{
-            //    for (int j = 0; j <= array2.GetLength(1); j++)
-            //    {
-            //        Console.WriteLine(array2[i,j]);
-            //    }
-            //    Console.WriteLine(" ");
-            //}
 
             for(int i= 0;i < 3; i++)
             {
@@ -76,25 +68,25 @@ namespace ArraysPractice
 
             //taking input from user
 
-            //int[,] array3 = new int[4, 3];
-            //Console.WriteLine("Enter the numbers for multidimensional array:");
-            //for(int i = 0; i < array3.GetLength(0); i++)
-            //{
-            //    for (int j = 0; j < array3.GetLength(1); j++)
-            //    {
-            //        array3[i,j] = Convert.ToInt32(Console.ReadLine());
-            //    }
-            //    Console.WriteLine();
-            //}
+            int[,] array3 = new int[4, 3];
+            Console.WriteLine("Enter the numbers for multidimensional array:");
+            for (int i = 0; i < array3.GetLength(0); i++)
+            {
+                for (int j = 0; j < array3.GetLength(1); j++)
+                {
+                    array3[i, j] = Convert.ToInt32(Console.ReadLine());
+                }
+                Console.WriteLine();
+            }
 
-            //for (int i = 0; i < array3.GetLength(0); i++)
-            //{
-            //    for (int j = 0; j < array3.GetLength(1); j++)
-            //    {
-            //        Console.Write(array3[i, j] + "\t");
-            //    }
-            //    Console.WriteLine();
-            //}
+            for (int i = 0; i < array3.GetLength(0); i++)
+            {
+                for (int j = 0; j < array3.GetLength(1); j++)
+                {
+                    Console.Write(array3[i, j] + "\t");
+                }
+                Console.WriteLine();
+            }
 
 
             //variable length argument
