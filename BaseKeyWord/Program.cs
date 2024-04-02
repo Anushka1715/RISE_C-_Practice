@@ -33,13 +33,13 @@ namespace BaseKeyWord
         public int Salary;
 
         public Employee() { }
-        public Employee(int id,string name,string dob,string dept,int salary) :base(name,dob)
+        public Employee(int Id,string Name,string DateOfBirth, string Department, int Salary) :base(Name, DateOfBirth)
         {
-            Id= id;
-            Name = name;
-            DateOfBirth = dob;
-            Department= dept;
-            Salary = salary;
+            this.Id= Id;
+            this.Name = Name;
+            this.DateOfBirth = DateOfBirth;
+            this.Department= Department;
+            this.Salary = Salary;
         }
 
         public void Show()

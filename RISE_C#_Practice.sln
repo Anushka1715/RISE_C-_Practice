@@ -53,9 +53,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IS-ARelationship", "IS-ARel
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Has-ARelationship", "Has-ARelationship\Has-ARelationship.csproj", "{E5501A2A-9685-4783-BF73-9CEC03DE6538}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperatorOverloading", "OperatorOverloading\OperatorOverloading.csproj", "{27F60497-049D-4D1B-9C26-D5B54BF92616}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OperatorOverloading", "OperatorOverloading\OperatorOverloading.csproj", "{27F60497-049D-4D1B-9C26-D5B54BF92616}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseKeyWord", "BaseKeyWord\BaseKeyWord.csproj", "{F0032833-5DCC-40CA-8556-BE92B5DEBE5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaseKeyWord", "BaseKeyWord\BaseKeyWord.csproj", "{F0032833-5DCC-40CA-8556-BE92B5DEBE5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "newKeywordMethodOverhiding&OverRiding", "newKeywordMethodOverhiding&OverRiding\newKeywordMethodOverhiding&OverRiding.csproj", "{97A7F286-EF2C-470E-B2CB-A2C9B34C56D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -171,6 +173,10 @@ Global
 		{F0032833-5DCC-40CA-8556-BE92B5DEBE5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F0032833-5DCC-40CA-8556-BE92B5DEBE5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F0032833-5DCC-40CA-8556-BE92B5DEBE5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97A7F286-EF2C-470E-B2CB-A2C9B34C56D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97A7F286-EF2C-470E-B2CB-A2C9B34C56D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97A7F286-EF2C-470E-B2CB-A2C9B34C56D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97A7F286-EF2C-470E-B2CB-A2C9B34C56D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
