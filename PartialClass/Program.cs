@@ -13,7 +13,13 @@ namespace PartialClass
         }
 
     }
-
+    partial class MyClass
+    {
+        public void Show()
+        {
+            Console.WriteLine("Name:" + name + " Age:" + age);
+        }
+    }
     public class Program
     {
         public static void Main(string[] args)
@@ -25,11 +31,5 @@ namespace PartialClass
     }
 
 
-    partial class MyClass
-    {
-        public void Show()
-        {
-            Console.WriteLine("Name:" + name + " Age:" + age);
-        }
-    }
+  
 }
