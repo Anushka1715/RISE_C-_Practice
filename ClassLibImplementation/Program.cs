@@ -1,6 +1,5 @@
 ﻿using ClassLibrary1;
 using System;
-using System.Runtime.CompilerServices;
 
 namespace ClassLibImplementation
 {

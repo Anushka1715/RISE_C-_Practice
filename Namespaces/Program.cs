@@ -1,5 +1,6 @@
 ﻿using System;
 using Namesapce2;
+using MyNamespace;
 
 
 namespace Namesapce2
@@ -29,6 +30,14 @@ namespace Namesapce2
     {
         public void PrintMYName(string Name) { 
             Console.WriteLine("My Name is : {0}",Name);
+        }
+    }
+
+    public class Class3 : MyNamespace.MyAbstractClass
+    {
+        public override void MyMessage()
+        {
+            Console.WriteLine("The implemented method of MyNAmespace in other projects name sapce.\n I cant use the internal member of this class here.");
         }
     }
 }
@@ -70,6 +79,13 @@ namespace Namespaces
 
             Namesapce2.interNamespace.InternalNamespaceClass obj  = new Namesapce2.interNamespace.InternalNamespaceClass();
             obj.MethodOFInternalNAmespaceClass();
+
+            MyNamespace.Class1 class13 = new MyNamespace.Class1();
+            class13.Method1();
+
+            Namesapce2.Class3 class14 = new Namesapce2.Class3();
+
+            class14.MyMessage();
 
             Console.ReadKey();
         }
