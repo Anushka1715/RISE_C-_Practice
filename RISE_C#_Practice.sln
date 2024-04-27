@@ -81,7 +81,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebAppli
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication2", "WebApplication2\WebApplication2.csproj", "{394FD69D-1A4F-4C4F-98F7-CBCE4264132C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\Collections.csproj", "{0F396F1F-7AF0-47AB-981E-37DD0444A995}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collections", "Collections\Collections.csproj", "{0F396F1F-7AF0-47AB-981E-37DD0444A995}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC_1FrameworkApp", "MVC_1FrameworkApp\MVC_1FrameworkApp.csproj", "{2E18DB3C-C808-42DD-A1B9-A2A5D70EF889}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListMethods", "ListMethods\ListMethods.csproj", "{B6DC7E69-8FD6-494B-8C69-4E4406849070}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DictionaryMethodPractice", "DictionaryMethodPractice\DictionaryMethodPractice.csproj", "{2038FB67-1CDD-4FCE-BF86-983686D617E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates", "Delegates\Delegates.csproj", "{773D1770-5737-4536-A651-E7F8046D020F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandling", "ExceptionHandling\ExceptionHandling.csproj", "{FE2BAC2E-A539-4EFF-A345-AF6509F50F7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserDefinedException", "UserDefinedException\UserDefinedException.csproj", "{91EABC23-4C02-4EA6-A664-05BF8C05696F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -249,6 +261,30 @@ Global
 		{0F396F1F-7AF0-47AB-981E-37DD0444A995}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F396F1F-7AF0-47AB-981E-37DD0444A995}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F396F1F-7AF0-47AB-981E-37DD0444A995}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E18DB3C-C808-42DD-A1B9-A2A5D70EF889}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E18DB3C-C808-42DD-A1B9-A2A5D70EF889}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E18DB3C-C808-42DD-A1B9-A2A5D70EF889}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E18DB3C-C808-42DD-A1B9-A2A5D70EF889}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6DC7E69-8FD6-494B-8C69-4E4406849070}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6DC7E69-8FD6-494B-8C69-4E4406849070}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6DC7E69-8FD6-494B-8C69-4E4406849070}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6DC7E69-8FD6-494B-8C69-4E4406849070}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2038FB67-1CDD-4FCE-BF86-983686D617E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2038FB67-1CDD-4FCE-BF86-983686D617E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2038FB67-1CDD-4FCE-BF86-983686D617E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2038FB67-1CDD-4FCE-BF86-983686D617E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{773D1770-5737-4536-A651-E7F8046D020F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{773D1770-5737-4536-A651-E7F8046D020F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{773D1770-5737-4536-A651-E7F8046D020F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{773D1770-5737-4536-A651-E7F8046D020F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE2BAC2E-A539-4EFF-A345-AF6509F50F7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE2BAC2E-A539-4EFF-A345-AF6509F50F7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE2BAC2E-A539-4EFF-A345-AF6509F50F7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE2BAC2E-A539-4EFF-A345-AF6509F50F7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91EABC23-4C02-4EA6-A664-05BF8C05696F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91EABC23-4C02-4EA6-A664-05BF8C05696F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91EABC23-4C02-4EA6-A664-05BF8C05696F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91EABC23-4C02-4EA6-A664-05BF8C05696F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
