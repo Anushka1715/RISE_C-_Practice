@@ -99,6 +99,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC_BusinessLogic", "MVC_Bu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{D3212274-2C6E-44E4-A088-5492EC6A1DC2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC.NET6_CRUDEntityFramework", "MVC.NET6_CRUDEntityFramework\MVC.NET6_CRUDEntityFramework.csproj", "{E639BC7F-A639-4153-8FCA-A207CEB5996E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -297,6 +299,10 @@ Global
 		{D3212274-2C6E-44E4-A088-5492EC6A1DC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3212274-2C6E-44E4-A088-5492EC6A1DC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3212274-2C6E-44E4-A088-5492EC6A1DC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E639BC7F-A639-4153-8FCA-A207CEB5996E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E639BC7F-A639-4153-8FCA-A207CEB5996E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E639BC7F-A639-4153-8FCA-A207CEB5996E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E639BC7F-A639-4153-8FCA-A207CEB5996E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
